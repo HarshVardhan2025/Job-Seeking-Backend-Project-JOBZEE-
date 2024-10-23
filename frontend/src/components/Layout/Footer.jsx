@@ -1,25 +1,23 @@
 import React, { useContext } from "react";
 import { Context } from "../../main";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
   const { isAuthorized } = useContext(Context);
   return (
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
-      <div>&copy; All Rights Reserved By CodeWithZeeshu.</div>
+      <div>&copy; All Rights Reserved</div>
       <div>
-        <Link to={"https://www.facebook.com/profile.php?id=100030535123397"} target="_blank">
-          <FaFacebookF />
+        <Link to={"https://github.com/namanr25"} target="_blank">
+          <FaGithubSquare />
         </Link>
-        <Link to={"https://www.youtube.com/@CodeWithZeeshu"} target="_blank">
-          <FaYoutube />
-        </Link>
-        <Link to={"https://www.youtube.com/@CodeWithZeeshu"} target="_blank">
+        <Link to={"https://www.linkedin.com/in/naman-rastogi-4a761b1b8/"} target="_blank">
           <FaLinkedin />
         </Link>
-        <Link to={"https://www.instagram.com/z_4_zeeshuuu/"} target="_blank">
+        <Link to={"https://www.instagram.com/"} target="_blank">
           <RiInstagramFill />
         </Link>
       </div>

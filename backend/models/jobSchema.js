@@ -24,7 +24,7 @@ const jobSchema = new mongoose.Schema({
     location: {
         type: String,
         required: [true, "Please provide exact location"],
-        minLength: [50 , "Location must contain atleast 50 characters"],
+        minLength: [20 , "Location must contain atleast 20 characters"],
     },
     fixedSalary: {
         type: Number,

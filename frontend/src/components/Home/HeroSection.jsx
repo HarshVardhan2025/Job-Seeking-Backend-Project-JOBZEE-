@@ -36,9 +36,7 @@ const HeroSection = () => {
             <h1>Find a job that suits</h1>
             <h1>your interests and skills</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              voluptate repellat modi quidem aliquid eaque ducimus ipsa et,
-              facere mollitia!
+            JobZee is designed to bridge the gap between job seekers and employers. Job seekers can create profiles, search and apply for jobs, while employers can post job listings and review applications.
             </p>
           </div>
           <div className="image">

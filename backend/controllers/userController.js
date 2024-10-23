@@ -52,6 +52,8 @@ export const logout = catchAsyncError(async(req, res, next)=>{
     }).json({
         success: true,
         message: "User Logout Successfully",
+        secure : true,
+        sameSite: "None",
     });
 });
 

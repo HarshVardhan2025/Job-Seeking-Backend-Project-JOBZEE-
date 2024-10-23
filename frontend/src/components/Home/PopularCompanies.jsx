@@ -1,27 +1,27 @@
 import React from "react";
 import { FaMicrosoft, FaApple } from "react-icons/fa";
-import { SiTesla } from "react-icons/si";
+import { AiFillAmazonSquare } from "react-icons/ai";
 
 const PopularCompanies = () => {
   const companies = [
     {
       id: 1,
       title: "Microsoft",
-      location: "Street 10 Karachi, Pakistan",
+      location: " Luxor North Tower, Bangalore, Karnataka",
       openPositions: 10,
       icon: <FaMicrosoft />,
     },
     {
       id: 2,
-      title: "Tesla",
-      location: "Street 10 Karachi, Pakistan",
+      title: "Amazon",
+      location: "Gurgaon, Haryana",
       openPositions: 5,
-      icon: <SiTesla />,
+      icon: <AiFillAmazonSquare />,
     },
     {
       id: 3,
       title: "Apple",
-      location: "Street 10 Karachi, Pakistan",
+      location: "New Delhi",
       openPositions: 20,
       icon: <FaApple />,
     },
